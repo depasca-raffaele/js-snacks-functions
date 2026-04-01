@@ -14,7 +14,7 @@ function getNomi(array, lettera){
     }
     return nomi;
 }
-let getNomiArrow = (array, lettera) => {
+const getNomiArrow = (array, lettera) => {
     let nomi = [];
     for(let i = 0; i < array.length; i++){
         if(array[i].charAt(0).toLowerCase() === lettera.toLowerCase()){

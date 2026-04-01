@@ -9,7 +9,7 @@ const userName = 'Mario';
     return "ciao " + stringa;
 } */
 
-let saluti = (stringa) => "ciao " + stringa;
+const saluti = (stringa) => "ciao " + stringa;
 // Invoca la funzione qui e stampa il risultato in console
 let risultato = saluti(userName);
 console.log(risultato);
